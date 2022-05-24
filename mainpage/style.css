@@ -7,7 +7,7 @@ body{
     color: white;
     font-family: 'Noto Sans KR', sans-serif;
     
-    background: url(study.jpg) no-repeat;
+    background: url(library.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     width: 100vw;
@@ -61,6 +61,7 @@ a{
     background-color: grey;
     display: none;
     position: absolute;
+    text-align: center;
     list-style-type: none;
     text-decoration: none;
     font-size: 15px;
@@ -69,7 +70,8 @@ a{
 
 .navbar_menu li:hover ul{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    justify-content: center;
     align-items: center;
 }
 
