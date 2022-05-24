@@ -25,6 +25,7 @@ body{
     opacity: 0.8;
 }
 
+
 .navibar{
     display: flex;
     flex-wrap: wrap;
@@ -32,6 +33,7 @@ body{
     align-items: center;
     border-bottom: solid 0.5px;
     border-color: white;
+    padding: 10px 20px;
 }
 
 a{
@@ -40,8 +42,8 @@ a{
 }
 
 .navbar_logo{
-    font-size: 20px;
-    color: white;
+    font-size: 40px;
+    color: #C4DDFF;
 }
 
 .navbar_menu{
@@ -51,21 +53,21 @@ a{
     display: flex;
     list-style-type: none;
     padding-left: 0;
-    font-size: 24px;
+    font-size: 28px;
     display: flex;
     line-height: 0%;
 }
 
 .navbar_menu li ul {
-    margin: 0;
-    padding: 0;
+    margin: 15px;
+    padding: 5px;
     background-color: grey;
     display: none;
     position: absolute;
     text-align: center;
     list-style-type: none;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
     float: left;
 }
 
@@ -76,17 +78,63 @@ a{
     align-items: center;
 }
 
+.navbar_menu li ul:hover{
+    background-color: #C4DDFF;
+}
+
 .navbar_menu li{
-    padding: 8px 40px;
+    padding: 8px 30px;
 }
 
 .navbar_submenu{
     display: flex;
     list-style-type: none;
-    font-size: 15px;
+    font-size: 18px;
 }
+
+.navbar_toggleBtn{
+    position: absolute;
+    right: 40px;
+    font-size: 24px;
+    color: #C4DDFF;
+    display: none;
+} 
 
 .navbar_submenu li{
-    padding: 5px 5px;
+    padding: 5px 6px;
 }
 
+@media screen and (max-width: 770px){
+    .navibar{
+        flex-direction: column;
+        padding: 8px 24px;
+    }
+
+    .navbar_menu{
+        display:none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar_menu li{
+        margin: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar_submenu{
+        display: none;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .navbar_toggleBtn{
+        display: block;
+    }
+
+    .navbar_menu.active{
+        display: flex;
+    }
+
+}
