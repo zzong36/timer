@@ -5,7 +5,7 @@ html{
 body{
     margin: 0;
     color: white;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Jua', sans-serif;
     
     background: url(library.jpg) no-repeat;
     background-size: cover;
@@ -53,6 +53,7 @@ a{
     padding-left: 0;
     font-size: 24px;
     display: flex;
+    line-height: 0%;
 }
 
 .navbar_menu li ul {
