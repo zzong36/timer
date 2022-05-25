@@ -47,6 +47,7 @@ body{
 a{
     text-decoration: none;
     color: black;
+
 }
 
 .navbar_logo{
@@ -214,7 +215,7 @@ a {
 
 .board_list_wrap .paging a.bt {
     border: 1px solid #eee;
-    background: transparent;
+    background: black;
 }
 
 .board_list_wrap .paging a.num {
@@ -224,7 +225,7 @@ a {
 }
 
 .board_list_wrap .paging a.num.on {
-    background: transparent;
+    background: black;
     color:  rgb(241, 246, 241);
 }
 
@@ -259,9 +260,9 @@ button:active {
 
 .bt {
 	
-	background-color:transparent;
+	background-color:black;
 	border-radius:20px;
-	border:4px solid rgb(241, 246, 241);
+	border:4px solid black;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -275,9 +276,9 @@ button:active {
 
 .num {
     
-	background-color:transparent;
+	background-color:black;
 	border-radius:20px;
-	border:4px solid rgb(241, 246, 241);
+	border:4px solid black;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -292,9 +293,9 @@ button:active {
 
 .num on {
 
-	background-color:transparent;
+	background-color:black;
 	border-radius:20px;
-	border:4px solid rgb(241, 246, 241);
+	border:4px solid black;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
