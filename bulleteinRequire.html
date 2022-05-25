@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bulleteinRequire.css">
+    <script src="https://kit.fontawesome.com/06461e5bbe.js" crossorigin="anonymous"></script>
+    <title>Modoo Timer</title>
+</head>
+
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+    </style>
+    <div class="mask">
+        <nav class="navibar">
+            <div class="navbar_logo">
+                <i class="fa-solid fa-stopwatch"></i>
+                <a href="#">Modoo Timer</a>
+            </div>
+            <ul class="navbar_menu">
+                <li><a href="#">서비스 소개</a>
+                    <ul>
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">이용방법</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">학습</a>
+                    <ul>
+                        <li><a href="#">나의공부</a></li>
+                        <li><a href="#">전체랭킹</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">기부</a>
+                    <ul>
+                        <li><a href="#">기부현황</a></li>
+                        <li><a href="#">기부요청</a></li>
+                        <li><a href="#">기부사연</a></li>
+                        <li><a href="#">기부영수증 등록</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">장학금 정보</a>
+                    <ul>
+                        <li><a href="#">장학 정보</a></li>
+                        <li><a href="#">기숙사 정보</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">타이머 설정</a></li>
+            </ul>
+
+            <ul class="navbar_submenu">
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+            </ul>
+
+            <a href="#" class="navbar_toggleBtn">
+                <i><i class="fa-solid fa-bars"></i></i>
+            </a>
+        </nav>
+    </div>
+
+    <div class="board_list_wrap">
+        <table class="board_list">
+<!-- talbe 태그의 자식태그로서 thead, tbody를 사용하여 생성할 테이블을 크게 2개의 영역으로 구분한다. -->
+            <thead>
+                <tr>
+                    <th>번호</th>
+                    <th>제목</th>
+                    <th>글쓴이</th>
+                    <th>작성일</th>
+                    <th>조회</th>
+                    <th>수정</th>
+                    <th>삭제</th>
+                </tr>
+            </thead>
+
+<!-- tr의 자식 태그인 td가 표현하는 테이블의 가로 row의 각각의 칸에 button 태그를 사용하여 button을 정의하는 것을 통해 수정, 삭제 버튼을 생성한다. -->
+            <tbody>
+                <tr>
+                    <td>5</td>
+                    <td class="tit">
+                        <a href="#">크롬 개발자도구 활용하는 방법</a>
+                    </td>
+                    <td>관리자</td>
+                    <td>2019-11-20</td>
+                    <td>111</td>
+                    <td><button>수정</button></td>
+                    <td><button>삭제</button></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td class="tit">
+                        <a href="#">html과 css로 웹사이트를 만들어요.</a>
+                    </td>
+                    <td>관리자</td>
+                    <td>2019-11-12</td>
+                    <td>222</td>
+                    <td><button>수정</button></td>
+                    <td><button>삭제</button></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td class="tit">
+                        <a href="#">코딩은 즐거워요.</a>
+                    </td>
+                    <td>관리자</td>
+                    <td>2019-11-02</td>
+                    <td>333</td>
+                    <td><button>수정</button></td>
+                    <td><button>삭제</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td class="tit">
+                        <a href="#">광명융합기술원 데이터분석과 현황</a>
+                    </td>
+                    <td>관리자</td>
+                    <td>2019-10-28</td>
+                    <td>222</td>
+                    <td><button>수정</button></td>
+                    <td><button>삭제</button></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td class="tit">
+                        <a href="#">kopo 취업율</a>
+                    </td>
+                    <td>관리자</td>
+                    <td>2019-10-24</td>
+                    <td>111</td>
+                    <td><button>수정</button></td>
+                    <td><button>삭제</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="paging">
+            <a href="write.html" class="bt">글쓰기</a>
+            <a href="#" class="bt">첫 페이지</a>
+            <a href="#" class="bt">이전 페이지</a>
+            <a href="#" class="num on">1</a>
+            <a href="#" class="num">2</a>
+            <a href="#" class="num">3</a>
+            <a href="#" class="bt">다음 페이지</a>
+            <a href="#" class="bt">마지막 페이지</a>
+            <a href="main.html" class="bt">메인화면으로이동</a>
+
+        </div>
+
+    </div>
+    <!-- footer -->
+    <footer>    
+        <section id="bottomMenu">
+          <ul>
+            <li><a href="#">회사 소개</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">약관</a></li>
+            <li><a href="#">사이트맵</a></li>
+          </ul>
+        </section>   
+      </footer>  
+    <script src="js/bulleteinRequire.js"></script>
+</body>
+
+</html>

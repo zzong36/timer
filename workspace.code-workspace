@@ -1,7 +1,6 @@
 {
 	"folders": [
 		{
-<<<<<<< HEAD
 			"name": "1주차_주말과제",
 			"path": "..\\..\\과제\\1주차_주말과제"
 		},
@@ -52,13 +51,4 @@
 	"settings": {
 		"liveServer.settings.multiRootWorkspaceName": "timer"
 	}
-=======
-			"path": "."
-		},
-		{
-			"path": "..\\..\\Frontend"
-		}
-	],
-	"settings": {}
->>>>>>> 46273174df24af2c149caab963c8f3dabe079bb1
 }
