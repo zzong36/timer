@@ -12,12 +12,12 @@ ul {
 
 body{
     margin: 0;
-    color: white;
+    color: black;
     font-family: 'Jua', sans-serif;
     
-    background: url(library.jpg) no-repeat;
+    /* background: url(library.jpg) no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center center; */
     width: 100vw;
     /* height: 100vh; */
 }
@@ -39,14 +39,14 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    border-bottom: solid 0.5px;
-    border-color: white;
+    border-bottom: solid 3px;
+    border-color: #C4DDFF;
     padding: 10px 20px;
 }
 
 a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .navbar_logo{
@@ -235,7 +235,7 @@ button {
 	border:4px solid rgb(241, 246, 241);
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color:black;
 	font-family:Arial;
 	font-size:20px;
 	padding:15px 15px;
