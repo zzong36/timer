@@ -15,7 +15,7 @@ body{
 }
 
 /* 배경화면 어둡게 설정하기 */
-.mask{
+/* .mask{
     margin: 0;
     padding: 0;
     position:absolute;
@@ -23,7 +23,7 @@ body{
     height: 100%;
     background: #191A19;
     opacity: 0.75;
-}
+} */
 
 
 .navibar{
