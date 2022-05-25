@@ -1,11 +1,54 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"name": "1주차_주말과제",
+			"path": "..\\..\\과제\\1주차_주말과제"
 		},
 		{
-			"path": "..\\..\\Frontend"
+			"name": "1DAY",
+			"path": "..\\..\\1DAY"
+		},
+		{
+			"name": "2DAY",
+			"path": "..\\..\\2DAY"
+		},
+		{
+			"name": "3DAY",
+			"path": "..\\..\\3DAY"
+		},
+		{
+			"name": "김병관",
+			"path": "..\\..\\과제\\김병관"
+		},
+		{
+			"name": "1.variable",
+			"path": "..\\..\\javascript\\1.variable"
+		},
+		{
+			"name": "javascript",
+			"path": "..\\..\\javascript"
+		},
+		{
+			"name": "6DAY",
+			"path": "..\\..\\6DAY"
+		},
+		{
+			"path": "..\\..\\과제\\진수민"
+		},
+		{
+			"path": "..\\..\\과제\\김병관_ToDoList"
+		},
+		{
+			"path": "..\\..\\과제\\finalassignment"
+		},
+		{
+			"path": "..\\..\\HTMLCSS"
+		},
+		{
+			"path": "..\\..\\lec_kopo\\lec_kopo"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "timer"
+	}
 }
