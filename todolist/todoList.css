@@ -3,7 +3,8 @@ html, body {
     padding: 0;
     display: flex;
     justify-content: center;
-    font-family: 'Grape Nuts', cursive;
+    font-family: 'Jua', sans-serif;
+
 
 }
 
@@ -35,7 +36,8 @@ h1 {
     border-right: none;
     border-bottom: 3px solid black;
 
-    font-family: 'Grape Nuts', cursive;
+    font-family: 'Jua', sans-serif;
+
 
 }
 
@@ -58,14 +60,16 @@ hr {
 	text-decoration:none;
 	text-shadow:0px 1px 0px #263666;
 
-    font-family: 'Grape Nuts', cursive;
+    font-family: 'Jua', sans-serif;
+
 
 }
 .button:hover {
 	background:linear-gradient(to bottom, #525252 5%, #6d6d70 100%);
 	background-color:#575858;
 
-    font-family: 'Grape Nuts', cursive;
+    font-family: 'Jua', sans-serif;
+
 
 }
 .button:active {
@@ -90,7 +94,8 @@ hr {
 	text-decoration:none;
 	text-shadow:0px 1px 0px #263666;
 
-    font-family: 'Grape Nuts', cursive;
+    font-family: 'Jua', sans-serif;
+
 
 }
 
@@ -103,7 +108,7 @@ hr {
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
+
 	font-size:15px;
 	padding:10px 20px;
 	text-decoration:none;
@@ -117,7 +122,8 @@ li {
     list-style-image: url("check1.png");
     font-size: 15px;
 
-    font-family: 'Grape Nuts', cursive;
+    font-family: 'Jua', sans-serif;
+
 }
 
 .container {
