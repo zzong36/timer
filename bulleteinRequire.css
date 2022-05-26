@@ -39,15 +39,24 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
     border-bottom: solid 3px;
     border-color: #C4DDFF;
+=======
+    border-bottom: solid 0.5px;
+    border-color: white;
+>>>>>>> bk
     padding: 10px 20px;
 }
 
 a{
     text-decoration: none;
+<<<<<<< HEAD
     color: black;
 
+=======
+    color: white;
+>>>>>>> bk
 }
 
 .navbar_logo{
@@ -215,7 +224,11 @@ a {
 
 .board_list_wrap .paging a.bt {
     border: 1px solid #eee;
+<<<<<<< HEAD
     background: black;
+=======
+    background: transparent;
+>>>>>>> bk
 }
 
 .board_list_wrap .paging a.num {
@@ -225,7 +238,11 @@ a {
 }
 
 .board_list_wrap .paging a.num.on {
+<<<<<<< HEAD
     background: black;
+=======
+    background: transparent;
+>>>>>>> bk
     color:  rgb(241, 246, 241);
 }
 
@@ -236,7 +253,11 @@ button {
 	border:4px solid rgb(241, 246, 241);
 	display:inline-block;
 	cursor:pointer;
+<<<<<<< HEAD
 	color:black;
+=======
+	color:#ffffff;
+>>>>>>> bk
 	font-family:Arial;
 	font-size:20px;
 	padding:15px 15px;
@@ -260,9 +281,15 @@ button:active {
 
 .bt {
 	
+<<<<<<< HEAD
 	background-color:black;
 	border-radius:20px;
 	border:4px solid black;
+=======
+	background-color:transparent;
+	border-radius:20px;
+	border:4px solid rgb(241, 246, 241);
+>>>>>>> bk
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -276,9 +303,15 @@ button:active {
 
 .num {
     
+<<<<<<< HEAD
 	background-color:black;
 	border-radius:20px;
 	border:4px solid black;
+=======
+	background-color:transparent;
+	border-radius:20px;
+	border:4px solid rgb(241, 246, 241);
+>>>>>>> bk
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -293,9 +326,15 @@ button:active {
 
 .num on {
 
+<<<<<<< HEAD
 	background-color:black;
 	border-radius:20px;
 	border:4px solid black;
+=======
+	background-color:transparent;
+	border-radius:20px;
+	border:4px solid rgb(241, 246, 241);
+>>>>>>> bk
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
